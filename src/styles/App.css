@@ -1,0 +1,14 @@
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.wrapper {
+    width: 43rem;
+    min-width: 29rem;
+    height: 30rem;
+    background-color: #ffffff;
+}
