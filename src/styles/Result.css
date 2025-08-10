@@ -1,0 +1,4 @@
+.result {
+    flex: 1;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsla(256, 72%, 46%, 1));
+}
