@@ -36,3 +36,5 @@
 - 객체 만들 때 마지막에 , 를 넣는 것이 좋다. 자바스크립트/타입스크립트 권장사항.
 - css에서는 js의 값을 그대로 받아올 수 없기 때문에, 일반 css로 작성하는 방식이면 palette.js, tokens.js 같은 거 못 쓴다. 쓰려면 CSS in JS를 써야 한다.
 - CSS에서 색상 값은 문자열이 아니라, 그대로 색상 값으로 넣어야 한다.
+- flex 값은 flex-grow와 flex-shrink, flex-basis로 되어 있다. flex-grow는 늘어나는 정도, flex-shrink는 줄어드는 정도, flex-basis는 초기값.
+- flex 값으로 양쪽을 동등하게 맞춰도, 한쪽의 내부에서 padding이든 width이든 고정값이 생기면 그걸로 비율이 안 맞춰질 수 있다. 이 경우에는 min-width: 0;으로 부모 요소를 맞춰주고, 내부의 width도 줄어들 수 있게 해줘야 한다.

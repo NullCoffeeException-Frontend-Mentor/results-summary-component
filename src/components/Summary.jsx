@@ -17,7 +17,7 @@ export default function Summary() {
             <ScoreBox style="verbal" img={verbal} subject="Verbal" score="61"/>
             <ScoreBox style="visual" img={visual} subject="Visual" score="72"/>
 
-            <button>
+            <button className="summary__button">
                 Continue
             </button>
         </div>

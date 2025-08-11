@@ -6,5 +6,5 @@ export const palette = {
     greenPrimary: "hsl(166, 100%, 37%)",
     greenSecondary: "#f2fdf9",
     bluePrimary: "hsl(234, 85%, 45%)",
-    blueSecondary: "#f4f4fe",
+    blueSecondary: "#f4f4fe"
 }

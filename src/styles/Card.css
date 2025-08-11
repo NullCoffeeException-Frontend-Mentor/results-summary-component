@@ -1,7 +1,8 @@
-.wrapper {
+.card {
     display: flex;
     width: 43rem;
     min-width: 29rem;
     height: 30rem;
     background-color: #ffffff;
+    border-radius: 2rem;
 }

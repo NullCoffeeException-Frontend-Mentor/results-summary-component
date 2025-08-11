@@ -1,8 +1,13 @@
 
 
 .scorebox {
+    margin-bottom: 1.1rem;
+    padding: 0.8rem 1.1rem;
     display: flex;
     align-items: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 8px;
 }
 
 .scorebox--reaction {
@@ -25,7 +30,18 @@
     background-color: #f4f4fe;
 }
 
+.scorebox__image {
+    margin-right: 0.6rem;
+    width: 1.2rem;
+}
+
 .scorebox__score {
     margin-left: auto;
     color: #000;
+    font-weight: 700;
+}
+
+.scorebox__score-maximum {
+    margin-left: 0.2rem;
+    color: #999;
 }
