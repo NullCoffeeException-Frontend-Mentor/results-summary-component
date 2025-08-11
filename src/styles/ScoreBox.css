@@ -45,3 +45,16 @@
     margin-left: 0.2rem;
     color: #999;
 }
+
+/* 모바일 */
+@media screen and (max-width: 600px) {
+    .scorebox {
+        padding: 1.2rem 1.3rem;
+        font-size: 1.2rem;
+        border-radius: 10px;
+    }
+
+    .scorebox__image {
+        width: 1.4rem;
+    }
+}
