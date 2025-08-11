@@ -1,0 +1,35 @@
+.summary {
+    padding: 2.5rem 2.3rem;
+    flex: 1 0 0;
+}
+
+.summary__title {
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+}
+
+.summary__button {
+    margin-top: 1.2rem;
+    padding: 0.9rem;
+    width: 100%;
+    border: 0;
+    border-radius: 1.5rem;
+    background-color: hsl(224, 30%, 27%);
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.summary__button:hover {
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    cursor: pointer;
+}
+
+/* 모바일 */
+@media screen and (max-width: 600px) {
+    .summary__button {
+        padding: 1.5rem;
+        font-size: 1.4rem;
+        border-radius: 2.2rem;
+    }
+}
