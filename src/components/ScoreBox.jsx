@@ -8,7 +8,7 @@ export default function ScoreBox({ style, img, subject, score }) {
             <p>
                 {subject}
             </p>
-            <p>
+            <p className="scorebox__score">
                 {score}<span> / 100</span>
             </p>
         </div>

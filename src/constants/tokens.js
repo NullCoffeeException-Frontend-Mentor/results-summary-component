@@ -1,5 +1,7 @@
 import { palette } from './palette'
 
+
+// 이 프로젝트에서는 못 쓴다. 쓰려면 CSS in JS 방식을 써야 한다.
 export const tokens = {
     reactionText: palette.redPrimary,
     reactionBackground: palette.redSecondary,
